@@ -14,7 +14,7 @@
   body {
     font-family: "Roboto", sans-serif;
     background: var(--main);
-    color: #434455;
+    color: var(--dark);
   }
   .link {
     list-style: none;
@@ -31,25 +31,30 @@
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--dark);
   }
-  .logo span {
-    color: #2e2f42;
-    
+  .list {
+    list-style: none;
   }
+  
   .page-navigation {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--dark);
+    color: var(--link-color, #2e2f42);
+    text-decoration: none;
   }
-  .page-navigation:hover,
+  
+  .page-navigation:hover {
+    color: #404bbf;
+  }
+  
   .page-navigation:focus {
-    color: var(--pressed-state);
+    color: #404bbf;
   }
   .connection {
     font-style: normal;
@@ -236,3 +241,4 @@
   .project-titel {
     background: var(--main);
   }
+  
