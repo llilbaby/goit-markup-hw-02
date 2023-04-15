@@ -14,7 +14,7 @@
   body {
     font-family: "Roboto", sans-serif;
     background: var(--main);
-    color: var(--dark);
+    color: #434455;
   }
   .link {
     list-style: none;
@@ -31,10 +31,14 @@
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--dark);
+    color: #4d5ae5;
+  }
+  .logo span {
+    color: #2e2f42;
+    
   }
   .page-navigation {
     font-weight: 500;
